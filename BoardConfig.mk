@@ -84,6 +84,9 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Removals
+TARGET_USE_MUSICFX := false
+
 # Display
 TARGET_USES_HWC2 := true
 
