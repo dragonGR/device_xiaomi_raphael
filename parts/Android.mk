@@ -21,7 +21,9 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
-    androidx.preference_preference
+    androidx.preference_preference \
+    AicpGear-preference \
+    AicpGear-util
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     vendor.xiaomi.hardware.displayfeature-V1.0-java \
@@ -30,7 +32,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
-    $(TOP)/packages/resources/devicesettings/res
+    $(TOP)/packages/resources/devicesettings/res \
+		$(LOCAL_PATH)/../doze/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
