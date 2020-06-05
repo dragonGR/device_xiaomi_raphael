@@ -1,0 +1,10 @@
+[
+    {
+        "repository": "AICP/proprietary_vendor_xiaomi",
+        "target_path": "vendor/xiaomi"
+    },
+    {
+        "repository": "AICP/kernel_xiaomi_raphael",
+        "target_path": "kernel/xiaomi/raphael"
+    }
+]
