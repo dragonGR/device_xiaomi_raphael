@@ -1,0 +1,3 @@
+# color_fod
+102932/7 https://gerrit.aicp-rom.com frameworks/base
+102933/7 https://gerrit.aicp-rom.com packages/apps/AicpExtras
