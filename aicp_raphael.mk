@@ -20,4 +20,4 @@ BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFK
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Alex T. (GreekDragon)"
+    DEVICE_MAINTAINERS="Alex T. (GreekDragon), Diego Casasnovas (diego-cr)"
