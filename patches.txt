@@ -1,3 +1,7 @@
 # color_fod
-102932/7 https://gerrit.aicp-rom.com frameworks/base
-102933/7 https://gerrit.aicp-rom.com packages/apps/AicpExtras
+102932/13 https://gerrit.aicp-rom.com frameworks/base
+102933/8 https://gerrit.aicp-rom.com packages/apps/AicpExtras
+103897/2 https://gerrit.aicp-rom.com frameworks/base
+# screen_off_fod
+103422/12 https://gerrit.aicp-rom.com frameworks/base
+103423/7 https://gerrit.aicp-rom.com packages/apps/Settings
