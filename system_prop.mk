@@ -1,8 +1,6 @@
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac \
-    persist.vendor.btstack.enable.splita2dp=true \
-    vendor.bluetooth.soc=cherokee
+    persist.vendor.btstack.enable.splita2dp=true
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -33,10 +31,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.displayfeature.histogram.enable=true \
     ro.hist.brightness.threshold=7 \
     ro.sf.lcd_density=440 \
-    ro.vendor.display.ad=1 \
-    ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
-    ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
-    ro.vendor.display.sensortype=2 \
     ro.xiaomi.bl.poll=true \
     persist.displayfeature.dc_backlight.threshold=610 \
     persist.displayfeature.dc_backlight.enable=false \
@@ -54,10 +48,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     media.settings.xml=/system/etc/media_profiles_vendor.xml \
     vendor.mm.enable.qcom_parser=63963135
-
-# Memory optimizations
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
