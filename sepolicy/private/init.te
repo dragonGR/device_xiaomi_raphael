@@ -10,3 +10,7 @@ allow init vendor_overlay_file:dir mounton;
 
 # Allow init to write to sysfs_graphics
 allow init sysfs_graphics:file w_file_perms;
+
+# For mount /sys/kernel/debug/tracing
+# to support tracefs if debugfs is disabled
+allow init debugfs_tracing_debug:dir mounton;
