@@ -45,7 +45,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.displayfeature.dc_backlight.threshold=610 \
     persist.displayfeature.dc_backlight.enable=false \
     persist.fod.modified.dc_status=false \
-    sys.displayfeature.hbm.enable=true
+    sys.displayfeature.hbm.enable=true \
+    ro.sf.force_light_brightness=1
 
 # Enable blurs, hidden under dev option
 PRODUCT_PRODUCT_PROPERTIES += \
