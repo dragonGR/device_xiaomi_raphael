@@ -137,9 +137,6 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_raphael
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
-# RIL
-TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
-
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
