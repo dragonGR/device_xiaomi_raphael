@@ -52,7 +52,8 @@
         android:textSize="12sp"
         android:gravity="center_horizontal"
         android:accessibilityLiveRegion="polite"
-        android:textColor="@color/biometric_dialog_gray"/>
+        android:textColor="@color/biometric_dialog_gray"
+        android:visibility="gone"/>
 
     <ImageView
         android:id="@+id/biometric_icon"
